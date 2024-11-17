@@ -1,11 +1,17 @@
 import React from "react";
 import { Heart, Calendar, MapPin } from "lucide-react";
 
+const backgroundImage = require("../assets/images/invitation_bg.png");
+
 const Invitation = () => (
+  
   <div className="pt-20 font-serif text-gray-800 leading-relaxed">
-    <header className="bg-cover bg-center h-screen flex flex-col justify-center items-center text-center text-white shadow-[inset_0_0_0_1000px_rgba(0,0,0,0.5)]">
-      <h1 className="text-6xl mb-2 font-bold">Emily & Michael</h1>
-      <p className="text-4xl font-light">August 15, 2024</p>
+    <header
+      className="bg-cover bg-center h-screen flex flex-col justify-center items-center text-center text-white shadow-[inset_0_0_0_1000px_rgba(0,0,0,0.5)]"
+      style={{ backgroundImage: `url(${backgroundImage})` }}
+    >
+      <h1 className="text-6xl mb-2 font-bold">Maha & Kishore</h1>
+      <p className="text-4xl font-light">September 11, 2023</p>
     </header>
 
     <main className="container mx-auto px-4 py-16">
@@ -22,14 +28,14 @@ const Invitation = () => (
         <div className="w-full md:w-1/3 text-center p-8 border border-gray-200 rounded-lg transition-shadow duration-300 hover:shadow-lg">
           <Calendar className="w-16 h-16 mx-auto mb-4 text-yellow-600" />
           <h3 className="text-2xl font-semibold mb-2">When</h3>
-          <p>August 15, 2024</p>
-          <p>4:00 PM</p>
+          <p>September 11, 2023</p>
+          <p>11.00 AM</p>
         </div>
         <div className="w-full md:w-1/3 text-center p-8 border border-gray-200 rounded-lg transition-shadow duration-300 hover:shadow-lg">
           <MapPin className="w-16 h-16 mx-auto mb-4 text-yellow-600" />
           <h3 className="text-2xl font-semibold mb-2">Where</h3>
-          <p>Rosewood Gardens</p>
-          <p>123 Blossom Street, Springville</p>
+          <p>Sri Annai Mahal</p>
+          <p>Plot No, 842, Thiruvottiyur High Rd, Korukkupet, Old Washermanpet, Chennai, Tamil Nadu 600021</p>
         </div>
       </div>
 

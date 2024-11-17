@@ -2,7 +2,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import Navbar from "./Components/Navbar"; // Import the Navbar component
-import Home from "./Pages/Home.tsx";
 import EventAlbum from "./Pages/Event/EventAlbum";
 import EventMemories from "./Pages/Event/EventMemories";
 import Invitation from "./Pages/Invitation"; // Import the Invitation page
@@ -14,14 +13,6 @@ function App() {
       <div className="App">
         <Navbar /> {/* Pass handleLogout */}
         <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <Home />
-              </>
-            }
-          />
           <Route
             path="/invitation"
             element={
@@ -40,7 +31,7 @@ function App() {
                 <EventMemories />
             }
           />
-          <Route path="*" element={<Navigate to="/" />} />
+          <Route path="*" element={<Navigate to="/invitation" />} />
         </Routes>
       </div>
     </Router>

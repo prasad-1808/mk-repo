@@ -23,12 +23,6 @@ function Navbar() {
         <nav className="hidden md:flex">
           <ul className="flex space-x-6">
             <li>
-              <Link
-                to="/"
-                className="text-gray-600 hover:text-purple-600 transition duration-300"
-              >
-                Home
-              </Link>
             </li>
             <li>
               <Link
