@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mk-repo/static/css/main.2be332cc.css",
-    "main.js": "/mk-repo/static/js/main.87051c6a.js",
+    "main.css": "/mk-repo/static/css/main.ce5aa0b7.css",
+    "main.js": "/mk-repo/static/js/main.f2d0a5c7.js",
     "static/js/453.419a5d54.chunk.js": "/mk-repo/static/js/453.419a5d54.chunk.js",
     "static/media/2_marriage.JPG": "/mk-repo/static/media/2_marriage.07ae841669157d0ebdbd.JPG",
     "static/media/HR5A1273.jpg": "/mk-repo/static/media/HR5A1273.1e61c6ad620e97dff9cb.jpg",
@@ -17,12 +17,12 @@
     "static/media/3_anniversary.jpg": "/mk-repo/static/media/3_anniversary.87eee0f7c5d1ca0888f7.jpg",
     "static/media/invitation_bg.png": "/mk-repo/static/media/invitation_bg.08a4433cbac938260392.png",
     "index.html": "/mk-repo/index.html",
-    "main.2be332cc.css.map": "/mk-repo/static/css/main.2be332cc.css.map",
-    "main.87051c6a.js.map": "/mk-repo/static/js/main.87051c6a.js.map",
+    "main.ce5aa0b7.css.map": "/mk-repo/static/css/main.ce5aa0b7.css.map",
+    "main.f2d0a5c7.js.map": "/mk-repo/static/js/main.f2d0a5c7.js.map",
     "453.419a5d54.chunk.js.map": "/mk-repo/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2be332cc.css",
-    "static/js/main.87051c6a.js"
+    "static/css/main.ce5aa0b7.css",
+    "static/js/main.f2d0a5c7.js"
   ]
 }
