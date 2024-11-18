@@ -4,7 +4,6 @@ import { Heart, Calendar, MapPin } from "lucide-react";
 const backgroundImage = require("../assets/images/invitation_bg.png");
 
 const Invitation = () => (
-  
   <div className="pt-20 font-serif text-gray-800 leading-relaxed">
     <header
       className="bg-cover bg-center h-screen flex flex-col justify-center items-center text-center text-white shadow-[inset_0_0_0_1000px_rgba(0,0,0,0.5)]"
@@ -23,22 +22,31 @@ const Invitation = () => (
           Join us in celebrating the beginning of our new life together.
         </p>
       </div>
+      <a
+        href="https://maps.app.goo.gl/TQcQq5LDX1tSuozf7"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ textDecoration: "none", color: "inherit" }}
+      >
+        <div className="flex flex-wrap justify-center mt-12 gap-8">
+          <div className="w-full md:w-1/3 text-center p-8 border border-gray-200 rounded-lg transition-shadow duration-300 hover:shadow-lg">
+            <Calendar className="w-16 h-16 mx-auto mb-4 text-yellow-600" />
+            <h3 className="text-2xl font-semibold mb-2">When</h3>
+            <p>September 11, 2023</p>
+            <p>11.00 AM</p>
+          </div>
 
-      <div className="flex flex-wrap justify-center mt-12 gap-8">
-        <div className="w-full md:w-1/3 text-center p-8 border border-gray-200 rounded-lg transition-shadow duration-300 hover:shadow-lg">
-          <Calendar className="w-16 h-16 mx-auto mb-4 text-yellow-600" />
-          <h3 className="text-2xl font-semibold mb-2">When</h3>
-          <p>September 11, 2023</p>
-          <p>11.00 AM</p>
+          <div className="w-full md:w-1/3 text-center p-8 border border-gray-200 rounded-lg transition-shadow duration-300 hover:shadow-lg">
+            <MapPin className="w-16 h-16 mx-auto mb-4 text-yellow-600" />
+            <h3 className="text-2xl font-semibold mb-2">Where</h3>
+            <p>Sri Annai Mahal</p>
+            <p>
+              Plot No, 842, Thiruvottiyur High Rd, Korukkupet, Old Washermanpet,
+              Chennai, Tamil Nadu 600021
+            </p>
+          </div>
         </div>
-        <div className="w-full md:w-1/3 text-center p-8 border border-gray-200 rounded-lg transition-shadow duration-300 hover:shadow-lg">
-          <MapPin className="w-16 h-16 mx-auto mb-4 text-yellow-600" />
-          <h3 className="text-2xl font-semibold mb-2">Where</h3>
-          <p>Sri Annai Mahal</p>
-          <p>Plot No, 842, Thiruvottiyur High Rd, Korukkupet, Old Washermanpet, Chennai, Tamil Nadu 600021</p>
-        </div>
-      </div>
-
+      </a>
       <div className="text-center mt-12">
         <button className="px-12 py-3 text-xl font-bold border-2 border-gray-800 rounded-lg transition-all duration-300 hover:bg-yellow-600 hover:border-yellow-600 hover:text-white">
           RSVP
